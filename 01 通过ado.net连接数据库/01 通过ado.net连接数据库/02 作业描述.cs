@@ -23,13 +23,14 @@ namespace _01_通过ado.net连接数据库
         {
             string value1=textBox1.Text;
             string value2 = richTextBox1.Text;
-            string order = "insert into classinfo values('" + value1 + "','" + value2 + "')";
+            string order = "insert into classinfo values('" + value1 + "','" + value2 + "')"; 
             excu(order);
         }
 
         private void excu(string order)
         {
             int r;
+            int lg = 0;
             using(SqlConnection con=new SqlConnection(constr))
             {
                 
@@ -77,14 +78,19 @@ namespace _01_通过ado.net连接数据库
                 }
             }
             //数据绑定的时候，只认‘属性’，不认“字段”
-             this.dataGridView1.DataSource=list;
+             this.dataGridView1.DataSource=list;//数据绑定
         }
        
         private void button2_Click(object sender, EventArgs e)
         {
-            string value1 = textBox2.Text;
-            string order = "delete from classinfo where classid='" + value1 + "'";
-            excu(order);
+           DialogResult result= MessageBox.Show("确定要删除吗？", "确认删除", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+           if (result == DialogResult.OK)
+           {
+               string value1 = textBox2.Text;
+               string order = "delete from classinfo where classid='" + value1 + "'";
+               excu(order);
+           }
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -109,6 +115,23 @@ namespace _01_通过ado.net连接数据库
                 }
             }
 
+        }
+
+        //行获得焦点
+        private void dataGridView1_RowEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            //获取行中对象
+             DataGridViewRow currentrow = dataGridView1.Rows[e.RowIndex];
+             
+            //获取行中的TBLClass
+           TBLClass model=  currentrow.DataBoundItem as TBLClass;
+            if(model!=null)
+            {
+                textBox4.Text = model.classid.ToString();
+                textBox2.Text = textBox4.Text;
+                textBox3.Text = model.classname;
+                richTextBox2.Text = model.classabs;
+            }
         }
     }
 }
