@@ -1,0 +1,10 @@
+F:\C#编程\用户名密码验证登陆\用户名密码验证登陆\bin\Debug\用户名密码验证登陆.exe.config
+F:\C#编程\用户名密码验证登陆\用户名密码验证登陆\bin\Debug\用户名密码验证登陆.exe
+F:\C#编程\用户名密码验证登陆\用户名密码验证登陆\bin\Debug\用户名密码验证登陆.pdb
+F:\C#编程\用户名密码验证登陆\用户名密码验证登陆\obj\Debug\用户名密码验证登陆.csprojResolveAssemblyReference.cache
+F:\C#编程\用户名密码验证登陆\用户名密码验证登陆\obj\Debug\用户名密码验证登陆.Form1.resources
+F:\C#编程\用户名密码验证登陆\用户名密码验证登陆\obj\Debug\用户名密码验证登陆.Properties.Resources.resources
+F:\C#编程\用户名密码验证登陆\用户名密码验证登陆\obj\Debug\用户名密码验证登陆.csproj.GenerateResource.Cache
+F:\C#编程\用户名密码验证登陆\用户名密码验证登陆\obj\Debug\用户名密码验证登陆.exe
+F:\C#编程\用户名密码验证登陆\用户名密码验证登陆\obj\Debug\用户名密码验证登陆.pdb
+F:\C#编程\用户名密码验证登陆\用户名密码验证登陆\obj\Debug\用户名密码验证登陆.change.resources

@@ -11,3 +11,9 @@ v1.1  
   确认是否删除信息的部分：  
                 DialogResult result= MessageBox.Show("确定要删除吗？", "确认删除", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
            if (result == DialogResult.OK)  
+
+  
+登陆1    
+界面的制作  
+带参数的sql语句    
+静态类成员    
