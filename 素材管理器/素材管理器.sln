@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "素材管理器", "素材管理器\素材管理器.csproj", "{13A145E6-EA63-407C-94DE-EB7710649501}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13A145E6-EA63-407C-94DE-EB7710649501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A145E6-EA63-407C-94DE-EB7710649501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A145E6-EA63-407C-94DE-EB7710649501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A145E6-EA63-407C-94DE-EB7710649501}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBCD03EE-0ACB-498B-A9A2-AD1645189657}
+	EndGlobalSection
+EndGlobal
