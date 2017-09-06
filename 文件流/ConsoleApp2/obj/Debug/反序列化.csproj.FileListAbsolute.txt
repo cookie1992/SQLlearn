@@ -1,0 +1,10 @@
+E:\Users\Administrator\source\repos\文件流\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+E:\Users\Administrator\source\repos\文件流\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+E:\Users\Administrator\source\repos\文件流\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+E:\Users\Administrator\source\repos\文件流\ConsoleApp2\obj\Debug\反序列化.csproj.CoreCompileInputs.cache
+E:\Users\Administrator\source\repos\文件流\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+E:\Users\Administrator\source\repos\文件流\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+E:\Users\Administrator\source\repos\文件流\ConsoleApp2\bin\Debug\ConsoleApp1.exe
+E:\Users\Administrator\source\repos\文件流\ConsoleApp2\bin\Debug\ConsoleApp1.pdb
+E:\Users\Administrator\source\repos\文件流\ConsoleApp2\bin\Debug\ConsoleApp1.exe.config
+E:\Users\Administrator\source\repos\文件流\ConsoleApp2\obj\Debug\反序列化.csprojResolveAssemblyReference.cache

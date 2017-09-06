@@ -1,0 +1,7 @@
+E:\Users\Administrator\source\repos\文件流\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\Users\Administrator\source\repos\文件流\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\Users\Administrator\source\repos\文件流\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\Users\Administrator\source\repos\文件流\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\Users\Administrator\source\repos\文件流\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\Users\Administrator\source\repos\文件流\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+E:\Users\Administrator\source\repos\文件流\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache

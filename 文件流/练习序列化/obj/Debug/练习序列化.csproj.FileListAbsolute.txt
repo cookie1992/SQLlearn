@@ -1,0 +1,6 @@
+E:\Users\Administrator\source\repos\文件流\练习序列化\bin\Debug\练习序列化.exe.config
+E:\Users\Administrator\source\repos\文件流\练习序列化\bin\Debug\练习序列化.exe
+E:\Users\Administrator\source\repos\文件流\练习序列化\bin\Debug\练习序列化.pdb
+E:\Users\Administrator\source\repos\文件流\练习序列化\obj\Debug\练习序列化.csproj.CoreCompileInputs.cache
+E:\Users\Administrator\source\repos\文件流\练习序列化\obj\Debug\练习序列化.exe
+E:\Users\Administrator\source\repos\文件流\练习序列化\obj\Debug\练习序列化.pdb
