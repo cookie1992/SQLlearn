@@ -22,7 +22,7 @@ namespace 用户名密码验证登陆
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            globalhel.constr = "data source=SC-201703152226\\SQLEXPRESS;initial catalog=new video; integrated security=true";
+            globalhel.constr = @"data source=SC-201703152226\SQLEXPRESS;initial catalog=new video; integrated security=true";
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -79,6 +79,11 @@ namespace 用户名密码验证登陆
             if (i > 0)
             { 
                 MessageBox.Show("登陆成功", "成功", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+            else
+            {
+                MessageBox.Show("登陆失败", "错误", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
 
             #endregion
@@ -144,7 +149,13 @@ namespace 用户名密码验证登陆
         private void button3_Click(object sender, EventArgs e)
         {
             change chej = new change();
+            chej.toke = Chej_toke;
             chej.Show();
+        }
+
+        private string Chej_toke()
+        {
+            return textBox2.Text;
         }
     }
 }

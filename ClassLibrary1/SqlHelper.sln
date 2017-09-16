@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{72EE8D9C-4C61-4EE9-A4D9-0D48FF9B4A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLHELPER2", "SQLHELPER2\SQLHELPER2.csproj", "{DDB91390-6C24-4FEB-9AED-D665EF499183}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72EE8D9C-4C61-4EE9-A4D9-0D48FF9B4A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72EE8D9C-4C61-4EE9-A4D9-0D48FF9B4A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72EE8D9C-4C61-4EE9-A4D9-0D48FF9B4A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72EE8D9C-4C61-4EE9-A4D9-0D48FF9B4A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDB91390-6C24-4FEB-9AED-D665EF499183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDB91390-6C24-4FEB-9AED-D665EF499183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDB91390-6C24-4FEB-9AED-D665EF499183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDB91390-6C24-4FEB-9AED-D665EF499183}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2879B015-75E0-40B7-8F22-D5E915603090}
+	EndGlobalSection
+EndGlobal

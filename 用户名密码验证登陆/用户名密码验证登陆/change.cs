@@ -61,5 +61,13 @@ namespace 用户名密码验证登陆
                 MessageBox.Show("旧密码错误", "错误", MessageBoxButtons.OK, MessageBoxIcon.Stop);
             }
         }
+
+        private string password;
+        private void change_Load(object sender, EventArgs e)
+        {
+            password = toke();
+
+        }
+        public Func<string> toke;
     }
 }

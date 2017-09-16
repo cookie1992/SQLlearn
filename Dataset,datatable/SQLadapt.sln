@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dataset,datatable", "Dataset,datatable\Dataset,datatable.csproj", "{1AF0F5B0-5FA4-4A0D-97EC-4242C1D530F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dataset", "Dataset\Dataset.csproj", "{744DBBFF-6E3A-4EB3-A25C-25B833DE1B95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AF0F5B0-5FA4-4A0D-97EC-4242C1D530F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AF0F5B0-5FA4-4A0D-97EC-4242C1D530F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AF0F5B0-5FA4-4A0D-97EC-4242C1D530F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AF0F5B0-5FA4-4A0D-97EC-4242C1D530F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744DBBFF-6E3A-4EB3-A25C-25B833DE1B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744DBBFF-6E3A-4EB3-A25C-25B833DE1B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744DBBFF-6E3A-4EB3-A25C-25B833DE1B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744DBBFF-6E3A-4EB3-A25C-25B833DE1B95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA0DB849-2F97-40FB-8F7D-9276CD678316}
+	EndGlobalSection
+EndGlobal

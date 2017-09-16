@@ -91,7 +91,7 @@ namespace _01_通过ado.net连接数据库
             //   }
             //}
             //Console.ReadKey();
-         
+
 
 
             #endregion
@@ -132,8 +132,8 @@ namespace _01_通过ado.net连接数据库
             //}
             //Console.ReadKey();
             #endregion
-            
-               //Application.EnableVisualStyles();
+
+            //Application.EnableVisualStyles();
             //Application.SetCompatibleTextRenderingDefault(false);
             #region 查询数据
             //string constr = "data source=SC-201703152226\\SQLEXPRESS;initial catalog=new video;integrated security=true";
@@ -142,33 +142,49 @@ namespace _01_通过ado.net连接数据库
             //    string sql = "select * from classinfo";
             //    using (SqlCommand cmd = new SqlCommand(sql, con))
             //    {
-            //        con.Open();    
-            //        using (SqlDataReader sdr=  cmd.ExecuteReader())//sqldatareader为只读属性，只进
+            //        con.Open();
+            //        using (SqlDataReader reader = cmd.ExecuteReader())//sqldatareader为只读属性，只进
             //        {
             //            //在获取数据之前，先判断一下是否查询到了数据
-            //            if (sdr.HasRows)//如果有数据为TRUE，没数据为FalSE
+            //            if (reader.HasRows)//如果有数据为TRUE，没数据为FalSE
             //            {
             //                //进行取数据操作，有数据为TRUE，没数据为FALSE
-            //                while(sdr.Read())
+            //                while (reader.Read())
             //                {
             //                    //获取当前READ的数据
             //                    //获取每一列的数据
-            //                    //sdr.fieldcount 当前查询语句的个数
-            //                    for (int i=0;i<sdr.FieldCount;i++)
+            //                    //reader.fieldcount 当前查询语句的个数
+            //                    //for (int i = 0; i < reader.FieldCount; i++)
+            //                    //{
+            //                    //    通过列的名称可获得索引值：reader["列名"]
+            //                    //    Console.Write(reader[i] + "    |    ");
+            //                    //    Console.Write(reader.GetValue(i) + "    |    ");
+            //                    //    如果数据库查询到string的是NULL，这个NULL不是C# NULL而是DB.NULL，因此也不会报错.
+
+            //                    //}
+
+            //                    //classid, classname, classabs
+            //                    Console.Write(reader.GetInt32(0) + "    |    ");
+            //                    Console.Write(reader.GetString(1) + "    |    ");
+            //                    Console.Write(reader.GetString(2) + "    |    ");
+            //                    if (reader.IsDBNull(3))
             //                    {
-            //                        //通过列的名称可获得索引值：sdr["列名"]
-            //                        Console.Write(sdr[i] + "    |    ");
-            //                        //  Console.Write(sdr.GetValue(i) + "    |    ");
+            //                        Console.Write("Null");
             //                    }
+            //                    else
+            //                    {
+            //                        Console.Write(reader.GetBoolean(3));
+            //                    }
+                                
             //                    Console.WriteLine();
             //                }
             //            }
-            //            else 
-            //            { 
+            //            else
+            //            {
             //                Console.WriteLine("没有数据");
             //            }
             //        }
-              
+
             //    }
             //}
             //Console.ReadKey();

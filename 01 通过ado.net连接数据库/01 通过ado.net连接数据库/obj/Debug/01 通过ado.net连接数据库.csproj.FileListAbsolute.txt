@@ -6,3 +6,12 @@ F:\C#编程\01 通过ado.net连接数据库\01 通过ado.net连接数据库\obj\
 F:\C#编程\01 通过ado.net连接数据库\01 通过ado.net连接数据库\obj\Debug\01 通过ado.net连接数据库.pdb
 F:\C#编程\01 通过ado.net连接数据库\01 通过ado.net连接数据库\obj\Debug\_01_通过ado.net连接数据库._02_作业描述.resources
 F:\C#编程\01 通过ado.net连接数据库\01 通过ado.net连接数据库\obj\Debug\01 通过ado.net连接数据库.csproj.GenerateResource.Cache
+E:\Users\Administrator\source\repos\SQLlearn\01 通过ado.net连接数据库\01 通过ado.net连接数据库\bin\Debug\01 通过ado.net连接数据库.exe.config
+E:\Users\Administrator\source\repos\SQLlearn\01 通过ado.net连接数据库\01 通过ado.net连接数据库\bin\Debug\01 通过ado.net连接数据库.exe
+E:\Users\Administrator\source\repos\SQLlearn\01 通过ado.net连接数据库\01 通过ado.net连接数据库\bin\Debug\01 通过ado.net连接数据库.pdb
+E:\Users\Administrator\source\repos\SQLlearn\01 通过ado.net连接数据库\01 通过ado.net连接数据库\obj\Debug\01 通过ado.net连接数据库.csprojResolveAssemblyReference.cache
+E:\Users\Administrator\source\repos\SQLlearn\01 通过ado.net连接数据库\01 通过ado.net连接数据库\obj\Debug\_01_通过ado.net连接数据库._02_作业描述.resources
+E:\Users\Administrator\source\repos\SQLlearn\01 通过ado.net连接数据库\01 通过ado.net连接数据库\obj\Debug\01 通过ado.net连接数据库.csproj.GenerateResource.Cache
+E:\Users\Administrator\source\repos\SQLlearn\01 通过ado.net连接数据库\01 通过ado.net连接数据库\obj\Debug\01 通过ado.net连接数据库.csproj.CoreCompileInputs.cache
+E:\Users\Administrator\source\repos\SQLlearn\01 通过ado.net连接数据库\01 通过ado.net连接数据库\obj\Debug\01 通过ado.net连接数据库.exe
+E:\Users\Administrator\source\repos\SQLlearn\01 通过ado.net连接数据库\01 通过ado.net连接数据库\obj\Debug\01 通过ado.net连接数据库.pdb

@@ -12,5 +12,6 @@ namespace _01_通过ado.net连接数据库
         public int classid { get; set; }
         public string classname { get; set; }
         public string classabs { get; set; }
+        public string claascheack { get; set; }
     }
 }
